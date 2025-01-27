@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.animation as animation
 from scipy import integrate
 
-# Constantes em unidades no SI
 
 # Constante gravitacional
 G = 6.67430 * 10**(-11) # m^3/(kg*s^2)
