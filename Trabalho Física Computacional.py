@@ -86,3 +86,6 @@ def update(frame):
 ani = animation.FuncAnimation(fig=fig, func=update, frames=range(0, len(solution.t), 100), interval=30)
 
 plt.show()
+
+
+print('Boa noite Bruno')
