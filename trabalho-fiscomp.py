@@ -62,7 +62,7 @@ ax.set_aspect(1)
 ax.set_xlim(-2e7,2e7)
 ax.set_ylim(-2e7,5e7)
 plt.gca().set_xlabel('x da Nave em relação à Terra', labelpad=20)
-plt.ylabel('y da Nave em relação à Sus')
+plt.ylabel('y da Nave em relação à Terra')
 
 # Substituindo o plot por scatter
 scat_nave = ax.scatter(solution.y[0][0], solution.y[1][0], color='blue', s=10)  # Nave
@@ -83,8 +83,6 @@ def update(frame):
     return scat_nave, scat_terra
 
 
-# ani = animation.FuncAnimation(fig=fig, func=update, frames=range(0, len(solution.t), 100), interval=30)
+ani = animation.FuncAnimation(fig=fig, func=update, frames=range(0, len(solution.t), 100), interval=30)
 
 plt.show()
-
-print('boa noite bruno')
