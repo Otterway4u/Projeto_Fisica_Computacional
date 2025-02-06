@@ -20,7 +20,11 @@ Este repositório contém um código em Python que simula o movimento gravitacio
   - [pygame](https://www.pygame.org/news)
   - [math] (já incluso na biblioteca padrão do Python)
 
-Você pode instalar as bibliotecas necessárias com:
+
+# Como executar
 ```bash
+git clone https://github.com/usuario/simulacao-terra-lua-nave.git
+cd simulacao-terra-lua-nave
 pip install numpy pygame
+python main.py
 ```
