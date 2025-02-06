@@ -6,7 +6,7 @@ import math
 pygame.init()
 width, height = 1200, 800
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Simulação com Thrust, Tempo 1x/10x/50x e Trajetória Futura")
+pygame.display.set_caption("Simulação Sistema Terra, Nave e Lua") 
 
 # Cores
 WHITE  = (255, 255, 255)
